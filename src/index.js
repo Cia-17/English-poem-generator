@@ -25,9 +25,6 @@ function generatePoem(event){
     
     axios.get(apiUrl).then(displayPoem);
 
-    console.log(`Prompt: ${prompt} ,and Context: ${context}`)
-
-
 
 }
 
